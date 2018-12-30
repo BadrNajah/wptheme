@@ -1,0 +1,517 @@
+/*
+  Theme Name: momomac
+  Theme URI: http://dev.momomac.com/
+  Version: 1.0
+*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  white-space: nowrap;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+/*--------------------------------------*/
+
+
+/*start  menu */
+
+
+  body {
+    background-color: #000;
+    font-family: 'Cairo', sans-serif;
+  }
+ .top-nav
+ {
+  background-color: #000;
+  }
+   .top-nav .media
+   {
+    padding: 2px 0px;
+    }
+  .top-nav .media-body span .fa 
+  {
+    font-size: 16px;
+    padding-top: 4px;
+  }
+  .top-nav .media-left span 
+  {
+    color: #fff;
+    font-weight: 600;  
+    font-size: 12px; 
+    padding-left: 3px;
+    line-height: 13px;
+    text-transform: uppercase; 
+  }
+  .top-nav .media-body span 
+  {
+    color: #fff;
+  }
+.item-header
+{
+  min-height: 150px !important;
+  background-color: #fff;
+}
+  .navbar {
+      margin-bottom: 0;
+      border: 0;
+      border-radius: 0px;
+      font-size: 16px !important;
+      letter-spacing: 0.5px;
+      text-transform: capitalize;
+      background-color:#000;
+/*      border:1px solid #000;
+*/      /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
+  }
+  .navbar .fa
+  {
+    font-size: 18px;
+  }
+
+  .navbar li a, .navbar .navbar-brand 
+  { 
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover 
+  {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a 
+  {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle 
+  {
+    border-color: transparent;
+  }
+
+ .navbar-brand
+ {
+    font-size: 30px;
+ }
+ .navbar-brand span 
+{
+  color: rgb(129,129,129);
+  padding-right: 5px;
+}
+
+ .margin-top-video
+ {
+   margin-top: 5px;
+   margin-bottom:0px !important;
+ }
+
+ .link-image a,
+ .title-button
+ {
+   text-transform: uppercase !important;
+   border:1px solid #f1f1f1 !important;
+   color: #f1f1f1 !important;
+   padding: 2px 15px !important;
+   letter-spacing: 0.4em;
+   text-decoration: none !important;
+  }
+
+  .link-image a:hover,
+  .title-button a:hover
+  {
+    background-color: #8a8a89;
+  }
+
+  .carousel-inner .item 
+  {
+    min-height: 550px !important;
+    text-align: center;
+  }
+
+  .carousel-inner .item img 
+  {
+    padding-bottom: 35px;
+  }
+
+  .carousel-control .glyphicon-chevron-left, 
+  .carousel-control .glyphicon-chevron-right, 
+  .carousel-control .icon-prev, 
+  .carousel-control .icon-next
+  {
+    border:1px solid;
+    line-height: 29px;
+    font-size: 14px;
+  }
+
+  footer
+  {
+    min-height: 100px;
+    margin-top: 70px;
+    text-align: center !important;
+
+  }
+
+  footer li 
+  {
+    list-style-type: none !important;
+  }
+
+  footer ul 
+  {
+    padding: 0;
+    display: inline-flex;
+    list-style-type: none;
+  }
+  footer ul li a i 
+  {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    font-size: 22px !important;
+    color:#8a8a89;
+  }
+
+  .title-tour-page
+  {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 75px;
+  }
+
+  .date-tour
+  {
+     font-weight: bold;
+     padding-left: 15px;
+  }
+  .title-tour,.city-tour,.date-tour
+  {
+    font-size: 17px;
+    color: #fff;
+  }
+  .tour-section
+  {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid rgba(124,124,124,0.25);
+  }
+
+  .btn-resv-tour a 
+  {
+    color: #E74832 !important;
+    border: 1px solid #E74832 !important;
+    padding: 1px 67px !important;
+    font-size: 17px !important;
+    font-weight: bold;
+  }
+
+  .btn-bil-tour a
+  {
+    color: #000 !important;
+    border: 1px solid #E74832 !important;
+    padding: 1px 67px !important;
+    font-size: 17px !important;
+    background-color:#E74832;
+    font-weight: bold;
+  }
+
+  .sous-title-tour
+  {
+    color: #fff;
+    font-size: 17px;
+    padding-left: 15px;
+  }
+  
+  .sign_up_style h3 
+  {
+    text-align: center;
+    margin-top: 130px;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 0.25em;
+    line-height: 1.0em;
+  }
+
+  .sign_up-form .form-control,
+  .contact-page-style .form-control
+  {
+    background: #000;
+    border: none;
+    border-bottom: 1px solid rgb(188,188,188);
+    border-radius: 0px;
+    color: #fff;
+  }
+
+  .sign_up-form .btn,
+  .contact-page-style .btn 
+  {
+    margin-top: 40px;
+    background: #000;
+    color: rgb(188,188,188);
+    text-align: center;
+    border-color: rgb(131, 131, 131);
+    border-radius: 0px;
+    padding: 10px 35px;
+    font-size: 12px;
+  }
+
+  .contact-page-style .btn 
+  {
+    background-color: red;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  .sign_up-form p 
+  {
+    text-align: center;
+  }
+
+  .sign_up-form .btn:hover
+  {
+    background-color: red;
+    color: #fff;
+  } 
+
+  .contact-page-style h1 
+  {
+    text-align: left;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 80px;
+  }
+
+  .contact-page-style p 
+  {
+    text-align: left;
+    font-size: 17px;
+    color: rgb(129,129,129);
+  }
+
+  .contact-page-style .message-contact
+  {
+    height: 70px !important;
+  }
+
+  .image-center
+  {
+    margin:0 auto !important;
+  }
+
+  .carousel-indicators
+  {
+    bottom: -60px !important;
+  }
+
+  .bio-style h1,
+  .bio-style p  
+  {
+    color: #fff;
+  }
+  .bio-style h1
+  {
+    margin-top: 8%;
+  }
+
+  .logo-image
+  {
+    height: 100px;
+    margin-top: -37px;
+  }
+
+  div.wpcf7-mail-sent-ng,
+  div.wpcf7-mail-sent-ok  
+  {
+    color:#fff;
+    border:none !important;
+    text-align: center;
+  }
+
+  .style-button-youtube img 
+  {
+    max-width: 94px !important;
+    margin-top: -170px;
+    padding-left: 10px;
+    margin-right: -87px;
+    filter: brightness(0) invert(1);  
+  }
+
+  .margin-top-video iframe
+  {
+    height:85% !important;
+  }
+
+
+  @media (min-width: 768px) {
+
+    .navbar{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 100px !important;
+      padding-right: 20px !important;
+    }
+  
+  }
+
+@media (max-width: 767px) {
+
+  .logo-image
+  {
+    height: 75px;
+    margin-top: -25px;
+  }
+
+  .navbar-default .navbar-nav > li > a
+  {
+    text-align: center;
+  }
+
+  .navbar-brand
+  {
+    font-size: 21px;
+    padding-left: 15px;
+  }
+
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+  {
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar
+  {
+    background-color: #fff !important;
+  }
+
+  .title-tour,
+  .city-tour,
+  .date-tour,
+  .sous-title-tour
+  {
+    text-align: center !important;
+  }
+
+  .contact-page-style h1
+  {
+    margin-top: 50px !important;
+    text-align: center !important;
+  }
+
+  .contact-page-style p 
+  {
+    text-align: center !important;
+  }
+
+  .sign_up_style h3 
+  {
+    margin-top: 70px !important;
+  }
+
+  .btn-bil-tour a
+  {
+    border:none !important;
+  }
+
+  .style-button-youtube img 
+  {
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+  }
+
+}
